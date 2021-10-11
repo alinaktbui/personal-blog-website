@@ -1,0 +1,80 @@
+/*@import "./blog-card.css";
+@import "./nav.css";
+@import "./footer.css";
+*/
+
+
+/* Mobile */
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 50px 600px 250px 50px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* Initially each element has its own row for small screens */
+    grid-template-areas: "nav" "hd" "sd" "ft";
+    border: 2px solid yellow;
+}
+
+.box {
+    /* width: 250px;
+height: 150px; */
+    border: 1px solid red;
+    background: #F8FA9D;
+    padding: 20px;
+    width: 100%;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.header {
+    /* row start/column start/ row end/ column end */
+    grid-area: hd;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+.sidebar {
+    grid-area: sd;
+}
+
+@media(min-width: 400px) and (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 50px 600px 250px 50px;
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* Initially each element has its own row for small screens */
+        grid-template-areas: "nav" "hd" "sd" "ft";
+        border: 2px solid yellow;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 50px 600px 250px 50px;
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* Initially each element has its own row for small screens */
+        grid-template-areas: "nav nav nav" "hd hd hd" "sd sd sd" "ft ft ft";
+        border: 2px solid yellow;
+    }
+}
+
+
+/* Desktop */
+
+@media(min-width: 901px) {
+    .container {
+        display: grid;
+        grid-template-columns: 90% 10%;
+        grid-template-rows: 50px 600px 50px;
+        grid-template-areas: "nav nav nav nav nav nav nav nav" "hd hd hd hd sd sd sd sd" "ft ft ft ft ft ft ft ft";
+        border: 2px solid yellow;
+    }
+}
