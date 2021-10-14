@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.nav-item a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #141414;
+}
+
+.nav-item:hover {
+    background-color: #81d8d0;
+}
+
+.nav-item:hover a {
+    color: #141414;
+}
+
+@media(min-width: 400px) and (max-width: 901px) {
+    .nav-links {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        padding-inline-start: 0;
+    }
+}
