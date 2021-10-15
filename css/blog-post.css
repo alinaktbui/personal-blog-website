@@ -1,0 +1,30 @@
+@import "./nav.css";
+@import "./styles.css";
+.author-img {
+    max-width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.author-title {
+    font-weight: 600;
+}
+
+ul.info {
+    padding: 0;
+    font-size: 12px;
+    line-height: 1rem;
+    list-style-type: none;
+}
+
+
+/* Mobile */
+
+div.main.box.blog {
+    padding: 20px;
+}
+
+blockquote {
+    font-size: 24px;
+    font-weight: 600;
+}

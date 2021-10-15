@@ -1,0 +1,22 @@
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+
+.footer-item a {
+    padding: 0;
+    text-decoration: none;
+    color: #141414;
+}
+
+.footer-item:hover {
+    background-color: #81d8d0;
+}
+
+.footer-item:hover a {
+    color: #141414;
+}
