@@ -1,8 +1,8 @@
 @import "./nav.css";
 @import "./styles.css";
 .author-img {
-    max-width: 50%;
-    height: 100%;
+    max-width: 100%;
+    height: 40%;
     object-fit: cover;
 }
 
@@ -21,7 +21,7 @@ ul.info {
 /* Mobile */
 
 div.main.box.blog {
-    padding: 20px;
+    padding: 20px !important;
 }
 
 blockquote {
