@@ -24,7 +24,17 @@ html {
     color: #141414;
 }
 
-@media(min-width: 400px) and (max-width: 901px) {
+@media(max-width: 280px) {
+    .nav-links {
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: center;
+        padding-inline-start: 0;
+    }
+}
+
+@media(min-width: 281px) and (max-width: 901px) {
     .nav-links {
         list-style: none;
         display: flex;
