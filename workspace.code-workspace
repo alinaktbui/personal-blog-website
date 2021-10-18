@@ -1,0 +1,11 @@
+{
+    "folders": [
+		{
+			"name": "personal-blog-website",
+			"path": "."
+		}
+	],
+    "settings": {
+        "git.ignoreLimitWarning": true
+    }
+}

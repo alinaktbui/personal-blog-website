@@ -43,8 +43,9 @@ a:hover {
 }
 
 .blog-card-img {
+    min-width: 150px;
     max-width: 50%;
-    height: 100%;
+    min-height: 100px;
     object-fit: cover;
 }
 
